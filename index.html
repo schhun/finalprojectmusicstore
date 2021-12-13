@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Final Project Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <!-- <script src="https://unpkg.com/vue"></script> -->
+    <script src="vue.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+
+<!-- <div id="app">
+  <input type="text" placeholder="Name" v-model="form.name"/>
+  <input type="text" placeholder="Price" v-model="form.price"/>  -->
+<!-- {{form.name}} -->
+<!-- <button v-on:click="addItem ">Add Item</button>
+<div class='inventory' v-for="(item, index) in list">
+  <h1>{{item.name}}</h1>
+  <p>{{item.price}}</p> -->
+<!-- <p>{{index}}</p> -->
+<!-- <tags></tags>
+</div>
+<div class='inventory' v-for="(item, index) in products">
+<h1>{{item.name}}</h1>
+</div>
+</div> -->
+
+<div class="topnav">
+    <h1 align="center">Instrument Store</h1>
+    <!-- <button id="add_div">Add Item</button> -->
+</div>
+
+<div class="addForm">
+    <h3>Add New Instrument</h3>
+    <label>ID:
+        <input type='text' name='id' id='id' placeholder="ID">
+    </label>
+    <br>
+    <br>
+    <label>Name:
+        <input type='text' name='name' id='name' placeholder="Name">
+    </label>
+    <br>
+    <br>
+    <label>Brand:
+        <input type='text' name='brand' id='brand' placeholder="Brand">
+    </label>
+    <br>
+    <br>
+    <label>Price:
+        <input type='text' name='price' id='price' placeholder="Price">
+    </label>
+    <br>
+    <br>
+    <label>Instrument Type:
+        <input type='text' name='instrument_type' id='instrument_type' placeholder="Instrument Type">
+    </label>
+    <br>
+    <br>
+    <label>Image:
+        <input type='text' name='image' id='image' placeholder="Image(optional)">
+    </label>
+    <br>
+    <br>
+    <label>Color:
+        <input type='text' name='color' id='color' placeholder="Color">
+    </label>
+    <br>
+    <br>
+    <button type="button" id="add">Add Instrument</button>
+    <!-- <button type="button" id="print">Print</button> -->
+    <!-- <pre></pre> -->
+</div>
+
+<div class="cart"></div>
+<div id='container'>
+</div>
+</body>
+</html>
